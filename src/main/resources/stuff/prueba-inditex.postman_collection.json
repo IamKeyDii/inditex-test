@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "8f38ab20-57b4-4efd-b10c-18f4159fd055",
+		"name": "prueba-inditex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7401172"
+	},
+	"item": [
+		{
+			"name": "/api/prices/findAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"applicationDate\": \"2020-06-14T10:00:00Z\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/prices/findAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/prices/findPruebaInditex",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"applicationDate\": \"2020-06-14T10:00:00Z\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/prices/findPruebaInditex",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices",
+						"findPruebaInditex"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
